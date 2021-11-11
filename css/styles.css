@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0;
+    /*padding: 24px 90px 22px 92px;*/
+}
+.header {
+    height: 83px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.header__logo {
+    color: #E3B873;
+    font-size: 11px;
+    margin: 0px 95px 0px 92px;
+    text-transform: uppercase;
+}
+.navigation__items {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 67px;
+}
+.navigation__item {
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-right: 47px;
+    font-size: 11px;
+}
+.navigation__item:hover {
+    color: #E3B873;
+}
+.tel {
+    margin-right: 45px;
+}
+.tel-number {
+    color: #E3B873;
+}
+.button {
+   font-size: 11px; 
+   color: #FFFFFF;
+   background-color: #E3B873;
+   width: 161px;
+   height: 37px;
+   border-radius: 2px;
+   border: none;
+   text-transform: uppercase;
+   padding: 13px 33px;
+   margin-right: 90px;
+}
+.main-screen {
+    background-image: url(/image/image\ 4.3.jpg);
+    Height: 707px;
+}
+.shadow {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.main-screen__text {
+    color: white;
+}
+.accent {
+    color: #E3B873;
+}
