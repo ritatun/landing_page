@@ -1,27 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
 body {
     box-sizing: border-box;
     background-color: white;
     margin: 0;
-    /*padding: 24px 90px 22px 92px;*/
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
 }
 .header {
+    background-color: black;
+}
+.conteiner {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.header-content {
     height: 83px;
     width: 100vw;
-    background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
 .header__logo {
     color: #E3B873;
     font-size: 11px;
-    margin: 0px 95px 0px 92px;
     text-transform: uppercase;
 }
 .navigation__items {
     display: flex;
     justify-content: space-between;
-    margin-right: 67px;
 }
 .navigation__item {
     list-style-type: none;
@@ -32,36 +40,94 @@ body {
 .navigation__item:hover {
     color: #E3B873;
 }
-.tel {
-    margin-right: 45px;
+.telephone {
+    margin-right: 45px;*/
 }
-.tel-number {
+.accent {
     color: #E3B873;
 }
 .button {
    font-size: 11px; 
    color: #FFFFFF;
    background-color: #E3B873;
-   width: 161px;
-   height: 37px;
    border-radius: 2px;
    border: none;
    text-transform: uppercase;
-   padding: 13px 33px;
-   margin-right: 90px;
+   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 400;
+   font-style: italic;
+}
+.button-request-a-call {
+    width: 161px;
+    height: 37px;
 }
 .main-screen {
     background-image: url(/image/image\ 4.3.jpg);
-    Height: 707px;
+    height: 707px;
+    margin-bottom: 0;
 }
-.shadow {
+.main-screen-shadow {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
-.main-screen__text {
-    color: white;
+.main-offer {
+    margin-left: 300px;
+    border: 0;
 }
-.accent {
+.heading {
+    padding-top: 194px;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 53px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+.main-screen__text {
+    font-size: 22px;
+    line-height: 36px;
+}
+.main-screen__buttons {
+    display: flex;
+    justify-content: start;
+}
+.button-calculate {
+    margin: 41px 20px 0 0;
+    width: 207px;
+    height: 51px;
+}
+.button-SUBMIT {
+    margin-top: 41px;
+    width: 207px;
+    height: 51px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0)
+}
+.complited-project {
+    background: #131313;
+    height: 1074px;
+}
+.complited-project {
+    margin-top: 0;
+    border: 0;
+}
+.complited-project__heading {
+    font-family: 'Yeseva One', cursive;
+    font-size: 27px;
+    font-weight: 400;
     color: #E3B873;
+}
+.description {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E3B873;
+}
+.complited-project__left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
