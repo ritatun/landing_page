@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/modified-styles.css">
 </head>
+
 <body>
     <header class="header">
-        <div class="conteiner header-content"> 
+        <div class="conteiner header-content">
             <div class="header__logo">
                 IC "Repair Design Project"
             </div>
@@ -24,96 +27,134 @@
                 </ul>
             </nav>
             <div class="telephone">
-                <a href="tel:+79287683239" class="accent">+7 (928) 768-32-39</a>
+                <a href="tel:+79287683239" class="telephone__accent">+7 (928) 768-32-39</a>
             </div>
-            <div>
+            <div class="button-request">
                 <form>
                     <button class="button button-request-a-call">Request a call</button>
                 </form>
             </div>
-        </div>    
+        </div>
     </header>
     <main>
         <section class="main-screen">
             <div class="main-screen-shadow">
                 <div class="conteiner main-offer">
-                    <div class="heading">
+                    <h1 class="main-screen__heading">
                         Turnkey Repair in the <br> city of <span class="accent">Rostov-on-Don</span>
-                    </div> 
-                    <div class="main-screen__text">
+                    </h1>
+                    <p class="main-screen__text">
                         Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20%<br>
                         from cost of materials due to the organization of work
-                    </div>
+                    </p>
                     <form class="main-screen__buttons">
                         <button class="button button-calculate">CALCULATE THE COST</button>
                         <button class="button button-SUBMIT">SUBMIT YOUR APPLICATION</button>
-                    </form>                    
+                    </form>
                 </div>
             </div>
         </section>
-        
-        <article class="complited-project conteiner">
-            <div class="complited-project__left-column">
-                <h2 class="complited-project__heading">
-                    Completed projects
-                </h2>
-                <p class="complited-project__about">
-                    Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families
-                </p>
-                <ul class="project-info">
-                <li class="project-info__item">
-                    <h3 class="description">
-                        City:
-                    </h3>
+        <div class="second-section">
+            <section class="complited-project conteiner">
+
+                <div class="complited-project__left-column">
+                    <h2 class="complited-project__heading">
+                        Completed <br>projects
+                    </h2>
+                    <p class="complited-project__about">
+                        Only a small part of the work performed by our company is presented on the site. For 14 years on
+                        in the construction market we have made happy more than 1000 families
+                    </p>
+                    <ul class="project-info">
+                        <li class="project-info__item">
+                            <h3 class="description">
+                                City:
+                            </h3>
+                            <div class="details">
+                                Rostov-on-Don <br>
+                                LCD admiral
+                            </div>
+                        </li>
+
+                        <li class="project-info__item">
+                            <h3 class="description">
+                                apartment area:
+                            </h3>
+                            <div class="details">
+                                81 m<sup>2</sup>
+                            </div>
+                        </li>
+                        <li class="project-info__item">
+                            <h3 class="description">
+                                Repair time:
+                            </h3>
+                            <div class="details">
+                                3.5 months
+                            </div>
+                        </li>
+                        <li class="project-info__item">
+                            <h3 class="description">
+                                Repair Cost:
+                            </h3>
+                            <div class="details">
+                                Upon request
+                            </div>
+                        </li>
+                    </ul>
                     <div>
-                        Rostov-on-Don <br>
-                        LCD admiral
+                        <!--<img src="">arrows
+                    <div> 
+                        -->
                     </div>
-                </li>
-                <li class="project-info__item">
-                    <h3 class="description">
-                        apartment area:
-                    </h3>
-                    <div>
-                        81 m<sup>2</sup>
-                    </div>
-                </li>
-                <li class="project-info__item">
-                    <h3 class="description">
-                        Repair time:
-                    </h3>
-                    <div>
-                        3.5 months
-                    </div>
-                </li>
-                <li class="project-info__item">
-                    <h3 class="description">
-                        Repair Cost:
-                    </h3>
-                    <div>
-                        Upon request
-                    </div> 
-                </li>
-                </ul>
-                <div>
-                    <!--<img src="">arrows
-                    <img src="">
-                    <img src="">
-                    <img src="">
-                    <img src="">-->
                 </div>
+                <div class="complited-project__right-column">
+                    <div>
+                        <ul class="complited-project__city">
+                            <li><a href="" alt="" class="complited-project__city-items">Rostov-on-Don, Admiral</a>
+                            </li>
+                            <li><a href="" alt="" class="complited-project__city-items">Sochi Thieves</a>
+                            </li>
+                            <li> <a href="" alt="" class="complited-project__city-items"> Rostov-on-Don Patriotic</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="project__image">
+                        <img src="./image/image 2.1.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="online-control">
+            <div class="conteiner">
+                <div class="control">
+                    <h3 class="control-camera__heading">
+                        online control
+                    </h3>
+                    <div class="control-camera">
+                        <div class="control-camera__logo">
+                            <img class="control-camera__logo__img" src="./image/control.png">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="camera">
+                    <div class="camera-shadow">
+                        <div class="camera__button-play">
+                            <img src="image/Group 8.svg">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="complited-project__right-column">
-
-            </div>    
-
-           
-            
-
-
-        </article>
+            </div>
+        </section>
     </main>
     <footer>
     </footer>
 </body>
+
 </html>

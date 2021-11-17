@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
 
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
 body {
     box-sizing: border-box;
     background-color: white;
-    margin: 0;
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
+/*NAVIGATION*/
 .header {
     background-color: black;
 }
@@ -24,7 +29,7 @@ body {
 }
 .header__logo {
     color: #E3B873;
-    font-size: 11px;
+    font-size: 0.69rem;
     text-transform: uppercase;
 }
 .navigation__items {
@@ -35,33 +40,38 @@ body {
     list-style-type: none;
     color: #FFFFFF;
     margin-right: 47px;
-    font-size: 11px;
+    font-size: 0.69rem;
 }
 .navigation__item:hover {
     color: #E3B873;
 }
 .telephone {
-    margin-right: 45px;*/
+    margin-right: 45px;
 }
-.accent {
+.telephone__accent {
     color: #E3B873;
+    font-size: 0.69rem; 
 }
 .button {
-   font-size: 11px; 
+   font-size: 0.69rem; 
    color: #FFFFFF;
    background-color: #E3B873;
    border-radius: 2px;
    border: none;
    text-transform: uppercase;
    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-style: italic;
+   cursor: pointer;
 }
 .button-request-a-call {
     width: 161px;
     height: 37px;
 }
+
+
+/*MAIN SCREEN   1ST SECTON*/
 .main-screen {
     background-image: url(/image/image\ 4.3.jpg);
     height: 707px;
@@ -72,58 +82,97 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
-.main-offer {
-    margin-left: 300px;
-    border: 0;
-}
-.heading {
+
+.main-screen__heading {
     padding-top: 194px;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     line-height: 53px;
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Yeseva One', Comic Sans MS, Comic Sans cursive;
     font-weight: 400;
+    margin: 0;
+}
+.accent {
+    color: #E3B873;
+    font-size: 2.5rem; 
 }
 .main-screen__text {
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 36px;
+    font-style: normal;
 }
 .main-screen__buttons {
     display: flex;
     justify-content: start;
 }
-.button-calculate {
+.button-calculate, .button-SUBMIT {
     margin: 41px 20px 0 0;
     width: 207px;
     height: 51px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;  
 }
 .button-SUBMIT {
     margin-top: 41px;
-    width: 207px;
-    height: 51px;
-    border: 1px solid #FFFFFF;
-    border-radius: 2px;
-    background: rgba(0, 0, 0, 0)
 }
-.complited-project {
+.button-calculate:hover, .button-SUBMIT:hover {
+    background-color: #E3B873;
+    border-color: transparent;
+}
+
+/*MAIN SCREEN   2nd SECTON*/
+.second-section {
     background: #131313;
     height: 1074px;
 }
 .complited-project {
-    margin-top: 0;
+    padding-top: 107px;
     border: 0;
+    display: flex;
+    justify-content:space-between;
 }
+
 .complited-project__heading {
-    font-family: 'Yeseva One', cursive;
-    font-size: 27px;
+    font-family: 'Yeseva One', Helvetica, Arial cursive;
+    font-size: 1.68rem;
     font-weight: 400;
     color: #E3B873;
+    line-height: 37.42px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.complited-project__about {
+    font-size: 0.875rem;
+    line-height: 26.73px;
+    width: 442px;
+    height: 86px;
+    margin-bottom: 42px;
+}
+.project-info {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    list-style: none;
 }
 .description {
-    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    line-height: 24.95px;
+    margin-bottom: 9px;
+}
+.details {
+    font-size: 0.8125rem;
+    line-height: 21,28px;
+}
+
+.project-info__item {
+    margin-bottom: 34px;
+}
+.description {
+    font-family: 'Yeseva One', Helvetica, Arial cursive;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #E3B873;
+    line-height: 24.95px;
 }
 .complited-project__left-column {
     display: flex;
@@ -131,3 +180,124 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+.complited-project__city-items {
+    text-transform: uppercase;
+    font-family: "Yeseva One", Helvetica, Arial cursive;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 19.4px;
+    margin-right: 60.5px;
+    color: white;
+    text-decoration: none;
+}
+.complited-project__city-items:hover {
+    text-decoration: underline;
+    color: #E3B873;
+}
+.complited-project__city {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 52.68px;
+    list-style-type: none;
+}
+.project__image {
+    height: 482px;
+    width: 679px;
+}
+
+
+
+/* 3rd SECTON*/
+.online-control {
+    height: 1072px;
+    width: 100vw;
+    position: relative;
+    background-color: red;
+}
+
+.control-camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 50%;
+    position: absolute;
+    /*top: -298px;*/
+    justify-content: flex-start;
+    margin: 0;
+}
+.control-camera__heading {
+    font-family: "Yeseva One", Helvetica, Arial cursive;
+    font-size: 1.25rem;
+    line-height: 27.72px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 12.79px;
+    text-align: center;
+}
+.control-camera {
+    display: flex;
+    justify-content: center;
+}
+.control-camera__logo {
+    width: 32.77px;
+    height: 28px;
+    margin-bottom: 0 auto 31.21px auto;
+    display: block;
+}
+.control-camera__logo::before {
+    content: "";
+    background: #E3B873;
+    width: 32px;
+    height: 1.5px;
+    position: absolute;
+    right: 42px;
+    top: 16px;
+}
+
+.control-camera__logo::after {
+    content: "";
+    background: #E3B873;
+    width: 32px;
+    height: 1.5px;
+    position: absolute;
+    left: 42px;
+    top: 16px;
+}
+.camera {
+    width: 817px;
+    height: 434px;
+    background-image: url(/image/camera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(49, 39, 39);
+    margin: 31.21px auto 0 auto;
+    
+   /* position: absolute;*/
+    /*right: 50%;
+    top: -200px;
+    display: flex;
+    justify-content: center;
+   margin-top: -208px;*/
+}
+.camera-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+/*.camera__button-play {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #E3B873;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: 0;
+    padding: 0;
+}*/
