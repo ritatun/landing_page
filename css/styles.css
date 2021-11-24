@@ -76,7 +76,7 @@ body {
 }
 /*MAIN SCREEN   1ST SECTON*/
 .main-screen {
-    background-image: url("/image/image4.3.jpg");
+    background-image: url("image/image4.3.jpg");
     background-position: center;
     background-size: cover;
     margin-bottom: 0;
@@ -339,7 +339,7 @@ body {
 .camera {
     width: 817px;
     height: 434px;
-    background-image: url("/image/camera.jpg");
+    background-image: url("image/camera.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(49, 39, 39);
@@ -520,15 +520,15 @@ body {
 }
 
 .Redecorating {
-    background-image: url("/image/Redecorating.jpg");
+    background-image: url("image/Redecorating.jpg");
     background-size: cover;
 }
 .Overhaul {
-    background-image: url("/image/Overhaul.jpg");
+    background-image: url("image/Overhaul.jpg");
     background-size: cover;
 }
 .designer-repair {
-    background-image: url("/image/Designer-Repair.jpg");
+    background-image: url("image/Designer-Repair.jpg");
     background-size: cover;
 }
 .second-step {
@@ -584,7 +584,7 @@ body {
     justify-content: space-between;
 }
 .feedback-offer {
-    background-image: url("/image/feedback-image.png");
+    background-image: url("image/feedback-image.png");
     background-size: 100%;
     background-size: cover;
     height: 500px;
@@ -706,7 +706,7 @@ body {
 }
 
 .gallery {
-    background-image: url("/image/gallery.jpg");
+    background-image: url("image/gallery.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -893,7 +893,7 @@ body {
     display: none;
 }
 .map__background-img {
-    background-image: url("/image/bgmap.png");
+    background-image: url("image/bgmap.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
