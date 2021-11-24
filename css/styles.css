@@ -17,14 +17,12 @@ body {
     background-color: black;
 }
 .conteiner {
-    /*max-width: 95%;*/
     width: 95%;
     max-width: 1250px;
     margin: 0 auto;
 }
 .header-content {
     height: 83px;
-   /* width: 100vw;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -283,7 +281,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
 /* 3rd SECTON*/
 .online-control {
     position: relative;
@@ -359,10 +356,8 @@ body {
     justify-content: center;
 }
 .online-control__change-position {
-   /* max-width: 1250px;*/
     margin: 0 auto;
     margin-top: -324px;
- /*   height: 100%;*/
     padding-bottom: 147.85px;
 }
 .online-control__line {
@@ -541,9 +536,6 @@ body {
     height: 421px;
     position: relative;
 }
-/*.first-step {
-    border:brown 5px solid;
-}*/
 .third-step {
     background-color: white;
     width: 84%;
@@ -675,7 +667,7 @@ body {
     margin-left: 49px;
 }
 .feedback-form__checkbox__text {
-    color: #FFFFFF;   /*  */
+    color: #FFFFFF;   
     font-size: 0.875rem;
     margin-left: 8.6px;
 }
@@ -861,7 +853,6 @@ body {
     margin-left: -15px;
     margin-top: 63px;
 }
-
 .area__meaning, .duration__meaning {
     line-height: 23.56px;
     font-family: 'Yeseva One', Comic Sans MS, Comic Sans cursive;
@@ -878,7 +869,6 @@ body {
     margin-top: 17px;
     margin-bottom: 17.5px;
 }
-
 .duration__icon__img {
     width: 32.7px;
     height: 31.6px;
@@ -888,7 +878,6 @@ body {
     margin: 17px 13px 17.5px 15px;
 }
 .clients-reviews__item {
-    /*border: 2px solid red;*/
     max-width: 27%;
     padding-top: 13.6px;
     padding-left: 15px;
@@ -898,8 +887,7 @@ body {
     background-color: #181818;
     height: 100%;
     width: 100%;
-   /* z-index: 2;*/
-   position: relative;
+    position: relative;
 }
 .map-mobile {
     display: none;
@@ -909,7 +897,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*z-index: 1;*/
     height: 100%;
     width: 100%;
     position: relative;
@@ -918,8 +905,7 @@ body {
     height: 100%;
     width: 100%;
     background: linear-gradient(180deg, rgba(24, 24, 24, 90%) 3.47%, rgba(24, 24, 24, 72%) 100%);
-   /* z-index: 3;*/
-   position: relative;
+    position: relative;
 }
 .map__content {
     display: flex;
@@ -999,11 +985,8 @@ body {
 .instagram__icon {
     cursor: pointer;
 }
-
 .footer-content {
-    /*height: 133px;*/
     padding: 62px 0;
-    /*width: 100%;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
