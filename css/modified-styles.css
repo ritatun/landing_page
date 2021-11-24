@@ -158,7 +158,7 @@
     .camera {
         width: 90%;
         height: auto;
-        background-image: url("/image/camera.jpg");
+        background-image: url("image/camera.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-color: rgb(49, 39, 39);
@@ -272,7 +272,7 @@
         text-align: center;
     }
     .gallery-mobile__image {
-        background-image: url("/image/gallery.jpg");
+        background-image: url("image/gallery.jpg");
         width: 100%;
         height: 30vh;
         background-repeat: no-repeat;
